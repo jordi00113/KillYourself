@@ -1,0 +1,32 @@
+name: KillYourself
+description: Just a simple plugin used to kill yourself.
+version: '${project.version}'
+main: be.jordiperreman.killyourself.KillYourself
+api-version: 1.13
+authors: [ jordi00113 ]
+loadbefore:
+  - essentials
+commands:
+  kill:
+    description: Kill yourself.
+    aliases: [ suicide, killme, slain, harm]
+  killyourself:
+    description: Plugin help
+    usage: /<command>
+permissions:
+  killyourself.*:
+    default: op
+  killyourself.kill:
+    default: true
+  killyourself.author:
+    default: true
+    description: Plugin author
+  killyourself.version:
+    default: op
+    description: Plugin version
+  killyourself.reload:
+    default: op
+    description: Reload plugin's configuration
+  killyourself.help:
+    default: op
+    description: Plugin help

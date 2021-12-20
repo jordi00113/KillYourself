@@ -1,0 +1,15 @@
+# Configuration KillYourself
+general:
+  messages:
+    prefix: "&6&lKillYourself >> &r"
+
+    # Random message(s) to display when a player dies by using commands of this plugin. Picks automatically one of the messages random.
+    death-message:
+      - "&3&l%s&r is killed!"
+      - "&3&l%s&r died in a battle!"
+      - "&3&l%s&r committed suicide!"
+
+    no_perm: "&8You do &c&lnot &r&8have permission."
+    reload: "&fConfiguration is &a&lSuccessfully &freloaded."
+    sub_cmd_not_exist: "&8The provided sub command &cdoesn't &8exist."
+    version: "&fCurrent plugin version: &cv:%s&f."
